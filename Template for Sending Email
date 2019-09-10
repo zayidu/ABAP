@@ -1,38 +1,6 @@
 *--------------------------------------------------------------------------------------------------*
 *              Print of an invoice by SAPscript                                                    *
 *--------------------------------------------------------------------------------------------------*
-* Vers. Datum    Autor         Comment
-* 1.0   21.1.08  IMG-MDs        changes to adjust to the current CTT version
-* 1.1   29.1.08  IMG-MDs        changes according new requirements for the
-*                               Billing Document
-* 1.3   20.10.08 IMG-MDs        changes according new requirements for the
-*                               Billing Document from 15.10 - 20.10.2008
-* 1.4   20.10.08 IMG-MDs        changes according new requirements for the
-*                                   Billing Document from 24.10.2008
-* 1.5   19.11.08 IMG-MDs        Adjutments for customizable ULINE in forms
-* 1.6   23.04.09 AO-Sam         Localization for Singapore
-* 1.7   30.06.09 AO-Sam         Changes for migrate project doc.
-* 1.8   24.07.09 AO-Sam         Changes for currency issues
-* 1.9   02.06.10 Atos-Chenlp    Changes for sales organization 3300
-* 2.0   09.07.10 Atos-Chenxh    Changes terms of payment for sales organization 3300
-* 2.1   18.01.11 ORI-TIBREWAL(Atos) Changes specific for CTIN for sales Org 3200
-* 2.2   26.01.11 GeB             Insert customer material number
-* 2.3   11.04.11 ORI-MULTANI(Atos) Changes specific for CTIN for sales Org 3200
-* 2.4   11.06.12 Atos-Chenlp     Changes for sales organization 2300
-* 3.0   09.08.13 YASH-CHITTA     Commented code related to Sales org.2300
-*                                Removed hard coding for Sales org.
-* 4.0   16.09.2014 Meng(NOCO)    C2316 for CTXC
-* 5.0   08.01.2016 ZEN-JUTURU    CHG3012303- WH_03 CTIN service invoice change-statutory requirement.
-*                                CHG3010125 - Milestone Desc need to print on Final Inv (Commercial Inv)
-* 6.0   26.04.2016  ZEN-JUTURU   eCHG3014830 CTCH 9021027472 printout has ZAHLUNGskonditonen printed.
-* 1.0   07.12.2018  TULARAJ      PRJ0021776-SAP@CTBH Changes to Invoice form
-* 2.0   07.01.2019  TULARAJ      PRJ0021776-SAP@CTBH Changes to Invoice form
-* 3.0   08.01.2019  ZEN-GAURAV   PRJ0021776-SAP@CTBH Changes to Invoice form
-* 4.0   22.01.2019  TULARAJ      PRJ0021776-SAP@CTBH-To print signature&Telephone & fax length chng
-* 5.0   10.04.2019  mendnir_zen  CHG0037540-Delivery date Issue
-* 6.0   17.04.2019  mendnir_zen  CHG0037540-Delivery date Issue V1
-* 7.0   18.04.2019  mendnir_zen  CHG0037540-Delivery date Issue V2
-* 8.0   15.05.2019  mendnir_zen  CHG0037540-Delivery date Issue V3
 *------------------------------------------------------------------------------------------------------*
 
 REPORT zgl_rvadin02 LINE-COUNT 100 MESSAGE-ID vn.
